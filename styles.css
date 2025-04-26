@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.header {
+    background-color: #1F2937;
+    flex: 1 1 180px;
+}
+
+.top_content_section {
+    background-color: #FFFFFF;
+    flex: 1 1 180px;
+}
+
+.middle_content_section {
+    background-color: #E5E7EB;
+    flex: 1 1 170px;
+}
+
+.bottom_content_section {
+    background-color: #FFFFFF;
+    flex: 1 1 160px;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: 1 1 70px;
+}
